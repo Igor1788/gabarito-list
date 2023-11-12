@@ -75,7 +75,7 @@ body {
     top: 190px; /* Abaixo do contador */
     right: 30px; /* Alinhado com a div contador */
     width: 190px; /* Mesma largura que o contador */
-    background-color: rgba(255, 255, 255, 0.4); /* Branco com 80% de opacidade */
+    background-color: rgba(255, 255, 255, 0.6); /* Branco com 80% de opacidade */
     border-radius: 8px;
     padding: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

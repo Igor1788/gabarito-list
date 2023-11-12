@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador Cupons</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database-compat.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Lato:wght@400;700&ampdisplay=swap"
+    rel="stylesheet"
+    />
+</head>
+<body>
+
+  <div id="contador">
+    <h2 id="chamadaTitulo">Restam</h2>
+    <div id="valorContador">   
+        ...
+      </div>
+      <div id="tagOutline">cupons</div>
+  </div>
+
+  <div id="gabarito">
+    <h3>Questões por prova</h3>
+    <div id="questoes">
+      
+      <div class="prova" id="prova-azul">
+        <div class="prova-circulo azul"></div>
+        <div class="prova-numero">0</div>
+        <div class="prova-resposta" id="resposta-azul"></div> <!-- Elemento para exibir a resposta -->
+      </div>
+      <div class="prova" id="prova-amarela">
+        <div class="prova-circulo amarela"></div>
+        <div class="prova-numero">0</div>
+        <div class="prova-resposta" id="resposta-amarela"></div> <!-- Elemento para exibir a resposta -->
+      </div>
+      <div class="prova" id="prova-branca">
+        <div class="prova-circulo branca"></div>
+        <div class="prova-numero">0</div>
+        <div class="prova-resposta" id="resposta-branca"></div> <!-- Elemento para exibir a resposta -->
+      </div>
+      <div class="prova" id="prova-rosa">
+        <div class="prova-circulo rosa"></div>
+        <div class="prova-numero">0</div>
+        <div class="prova-resposta" id="resposta-rosa"></div> <!-- Elemento para exibir a resposta -->
+      </div>
+    </div>
+  </div>
+
+
+  <script type="module" src="scripts.js"></script>
+</body>
+</html>
